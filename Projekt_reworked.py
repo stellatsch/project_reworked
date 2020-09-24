@@ -15,13 +15,13 @@ import re
 
 
 # open .xls files as xlrd workbooks and save them into sheets
-en_wb = open_workbook(r"E:\Documents\Uni\TU Darmstadt\WiSe1819\FoLT\Project\sentiment_train\sentiment_train\en_sentiment_train.xls")
+en_wb = open_workbook(r"file.xls")
 en_sheet = en_wb.sheet_by_index(0)
-de_wb = open_workbook(r"E:\Documents\Uni\TU Darmstadt\WiSe1819\FoLT\Project\sentiment_train\sentiment_train\de_sentiment_train.xls")
+de_wb = open_workbook(r"file.xls")
 de_sheet = de_wb.sheet_by_index(0)
-fr_wb = open_workbook(r"E:\Documents\Uni\TU Darmstadt\WiSe1819\FoLT\Project\sentiment_train\sentiment_train\fr_sentiment_train.xls")
+fr_wb = open_workbook(r"file.xls")
 fr_sheet = fr_wb.sheet_by_index(0)
-pt_wb = open_workbook(r"E:\Documents\Uni\TU Darmstadt\WiSe1819\FoLT\Project\sentiment_train\sentiment_train\pt_sentiment_train.xls")
+pt_wb = open_workbook(r"file.xls")
 pt_sheet = pt_wb.sheet_by_index(0)
 
 
